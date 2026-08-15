@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.zg.sciencegame.HomeFragment"
+        android:label="Home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_labFragment"
+            app:destination="@id/labFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_catchElementsFragment"
+            app:destination="@id/catchElementsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/labFragment"
+        android:name="com.zg.sciencegame.LabFragment"
+        android:label="Lab">
+
+        <action
+            android:id="@+id/action_labFragment_to_catchElementsFragment"
+            app:destination="@id/catchElementsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/catchElementsFragment"
+        android:name="com.zg.sciencegame.CatchElementsFragment"
+        android:label="Catch Elements" />
+
+</navigation>

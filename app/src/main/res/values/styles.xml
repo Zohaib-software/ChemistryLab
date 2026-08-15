@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LabScreen">
+        <item name="android:background">@color/app_background</item>
+    </style>
+
+    <style name="FeedbackText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/slate_dark</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/feedback_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">80dp</item>
+    </style>
+
+    <style name="ElementButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_on_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+
+    <style name="PrimaryButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_on_dark</item>
+        <item name="android:backgroundTint">@color/maroon_muted</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="LabTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SelectedElementsText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@color/feedback_background</item>
+    </style>
+
+    <style name="ElementsLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="ClearButton">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:backgroundTint">@color/blue_grey</item>
+    </style>
+
+    <style name="ControlButton">
+        <item name="android:textColor">@color/text_on_dark</item>
+        <item name="android:backgroundTint">@color/maroon_muted</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="InfoButton">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:backgroundTint">@color/pink_accent</item>
+    </style>
+
+    <style name="HomeTitle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="HomeSubtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="SecondaryButton">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:backgroundTint">@color/pink_accent</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">none</item>
+    </style>
+
+    <style name="LabContainer">
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="HomeContainer">
+        <item name="android:padding">24dp</item>
+    </style>
+
+    <style name="ActionButtonsContainer">
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

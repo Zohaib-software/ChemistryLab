@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="slate_dark">#424B54</color>
+    <color name="blue_grey">#93A8AC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink_accent">#E2B4BD</color>
+    <color name="maroon_muted">#9B6A6C</color>
+
+    <color name="app_background">@color/white</color>
+    <color name="panel_background">@color/blue_grey</color>
+    <color name="feedback_background">@color/pink_accent</color>
+
+    <color name="text_primary">@color/slate_dark</color>
+    <color name="text_on_dark">@color/white</color>
+
+    <color name="alkali_metal">#FF6B6B</color>
+    <color name="alkaline_earth">#4ECDC4</color>
+    <color name="halogen">#95E1D3</color>
+    <color name="noble_gas">#F38181</color>
+    <color name="transition_metal">#AA96DA</color>
+    <color name="non_metal">#FCBAD3</color>
+    <color name="metalloid">#A8DADC</color>
+    <color name="other_metal">#FFD93D</color>
+    
+    <color name="element_default">#6C757D</color>
+    <color name="overlay_scrim">#80000000</color>
+
+</resources>
